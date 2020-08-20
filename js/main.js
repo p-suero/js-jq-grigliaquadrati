@@ -7,7 +7,7 @@
 //OPZIONE A con l'utilizzo di each (si fa qualche passaggio in più)
 //creo con j query 25 quadratini
 for (var i = 0; i < 25; i++) {
-    $("#griglia").append("<div class='quadrato'><p></p></div>")
+    $("#griglia").append("<div class='quadrato'><p></p></div>");
 }
 
 //seleziono tutti i quadratini e li esamino uno per uno con la funzione each
